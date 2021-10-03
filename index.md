@@ -8,6 +8,7 @@ The NTPEx test facility is located in Scott Lab W092. It is a modular and config
 - [Test facility design](design/design.md)
   - [Hardware overview](design/hardware.md)
   - [Software overview](design/software.md)
+  - [Components and Data Sheets](design/datasheets.md)
 - [History of the test facility](administration/history.md)
 
 ## Using the Facility

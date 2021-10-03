@@ -1,6 +1,6 @@
 # Overview of the Test Stand Hardware
 
-|![Test Stand P&ID](media/pid.png)|
+|![Test Stand P&ID](media/PID.png)|
 |:-:|
 |*Test Stand P&ID*|
 
