@@ -31,3 +31,8 @@
   - Normally closed, 0-10 VDC input
   - 10-32 female ports
   - 100 psi max pressure
+- [Mass flow sensor](https://www.sensirion.com/en/flow-sensors/mass-flow-meters-for-high-precise-measurement-of-gases/high-volume-digital-mass-flow-meter/)
+  - Sensiron (Model #SFM-3019)
+  - -10 to +240 slm measurement range
+  - Calibrated and temperature compensated
+  - I2C digital output
