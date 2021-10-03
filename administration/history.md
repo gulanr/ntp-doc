@@ -16,7 +16,7 @@ A summary of nuclear thermal propsulion work at The Ohio State University is pro
 **Noah Gula**. Master's thesis, The Ohio State University, 2022.
 
 ## Contributors to the Test Facility
-The following individuals have all helped build the facility 
+The following individuals have all helped build the facility.
 ### [Dr. John Horack](https://engineering.osu.edu/people/horack.1)
 *Senior Associate Dean, College of Engineering*
 
