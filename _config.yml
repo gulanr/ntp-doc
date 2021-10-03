@@ -1,3 +1,4 @@
+remote-theme:  pmarsceill/just-the-docs
+theme: just-the-docs
 markdown: GFM
 title: NTPEx Documentation
-remote-theme:  pmarsceill/just-the-docs
