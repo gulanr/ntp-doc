@@ -1,7 +1,7 @@
 ---
 title: Wiring Diagrams
 parent: Hardware
-grandparent: Test Facility Design
+grand_parent: Test Facility Design
 nav_order: 2
 ---
 
