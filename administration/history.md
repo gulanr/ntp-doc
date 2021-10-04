@@ -1,19 +1,19 @@
 # History of NTP at OSU
 
 ## Previous Works
-A summary of nuclear thermal propsulion work at The Ohio State University is provided in [this](NTP%20at%20OSU.pptx) presentation. 
+A summary of nuclear thermal propsulion work at The Ohio State University is provided in [this](./../assets/presentations/NTP%20at%20OSU.pptx) presentation. 
 
-### *An assessmentof bimodality ofnuclear thermal propulsion systems*
-**Justin Clark**. Undergradutate research thesis, The Ohio State University, 2019.
+### An assessmentof bimodality ofnuclear thermal propulsion systems
+**Justin Clark**. Undergradutate research thesis, 2019.
 
-### *Analysis of Nuclear Thermal Rocket Engine Coolant Channel DesignsEnabled by Additive Manufacturing*
-**Nick Salamon**. Master’s thesis, The Ohio State University, 2020.
+### Analysis of Nuclear Thermal Rocket Engine Coolant Channel DesignsEnabled by Additive Manufacturing
+**Nick Salamon**. Master’s thesis, 2020.
 
-### *Nuclear thermal propulsion cool-down phase optimization throughquasi-steady computational analysis,and the effect of auxiliary heat removal systems*
- **Jack Plank**. Master’s thesis, The Ohio State University, 2021.
+### Nuclear thermal propulsion cool-down phase optimization throughquasi-steady computational analysis,and the effect of auxiliary heat removal systems
+ **Jack Plank**. Master’s thesis, 2021.
 
-### *Optimization of Nuclear Thermal Propulsion Cooldown Phase Using Real-Time Simulations*
-**Noah Gula**. Master's thesis, The Ohio State University, 2022.
+### Optimization of Nuclear Thermal Propulsion Cooldown Phase Using Real-Time Simulations
+**Noah Gula**. Master's thesis, 2022.
 
 ## Contributors to the Test Facility
 The following individuals have all helped build the facility.

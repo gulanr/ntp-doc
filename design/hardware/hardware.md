@@ -7,18 +7,18 @@ nav_order: 2
 # Overview of the Test Stand Hardware
 
 ## Test Stand Configuration
-The test stand is capable of suppling 100 psi to a heated test article. A 30 gallon supply tank provides air storage, or other gas canisters can be connected as required by the experiment. Analog pressure, temperature, and mass flow gauges are attached to the tank. A manual run globe valve and pressure regulator are connected just downstream of the tank. Next is a proportional/adjustable solenoid valve to prescribe the desired mass flow rate. A digital mass flow sensor interfaces with the control software to measure the flow rate of gas to the test article. Upstream of the test article is a sensor tree which contains a thermocouple and pressure transducer. This sensor tree measures flow conditions just upstream of the test article. An additional two sensor trees measure the flow at the midpoint of the test article, and at the outlet of the test article. The P&ID for the test stand is shown below, and a list of components and their data sheets [here](datasheets.md).
-|![Test Stand P&ID](media/PID.png)|
+The test stand is capable of suppling 100 psi to a heated test article. A 30 gallon supply tank provides air storage, or other gas canisters can be connected as required by the experiment. Analog pressure, temperature, and mass flow gauges are attached to the tank. A manual run globe valve and pressure regulator are connected just downstream of the tank. Next is a proportional/adjustable solenoid valve to prescribe the desired mass flow rate. A digital mass flow sensor interfaces with the control software to measure the flow rate of gas to the test article. Upstream of the test article is a sensor tree which contains a thermocouple and pressure transducer. This sensor tree measures flow conditions just upstream of the test article. An additional two sensor trees measure the flow at the midpoint of the test article, and at the outlet of the test article. The P&ID for the test stand is shown below, and a list of components and their data sheets [here](equipment/datasheets.md).
+|![Test Stand P&ID](../../assets/images/pid.png)|
 |:-:|
 |*Test Stand P&ID*|
 
 ## Test Article & Interfaces
 The test stand has a 12-24 UNC fluid connection with 80/20 aluminum extrusion support structure to contain the test article. While the test stand allows connecting an alternative test article, a tie tube simulator with heat sink is typically used.
-|![Test Article Render](medial/../media/20210203%20-%20TA.png)|
+|![Test Article Render](../../assets/images/20210203%20-%20TA.png)|
 |:-:|
 |*Test Article Render*|
 
-|![Tie Tube Render](media/20210203%20-%20TT.png)|
+|![Tie Tube Render](../../assets/images/20210203%20-%20TT.png)|
 |:-:|
 |*Tie Tube Render*|
 
