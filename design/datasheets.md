@@ -1,4 +1,19 @@
+---
+title: Datasheets
+nav_order: 2
+parent: Test Facility Design
+has_toc: true
+---
 # Test Stand Data Sheets
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 - [Supply Tank](https://www.pneumaticplus.com/manchester-tank-Epoxy-Lined-Air-Receiver-30-gallons/)
   - Manchester Tank (Model #304966)
   - 200 psi MAWP @ 650 deg. F
