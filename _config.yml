@@ -1,3 +1,9 @@
 remote_theme: pmarsceill/just-the-docs
 markdown: GFM
 title: NTPEx Documentation
+logo: "/media/logo.png"
+search_enabled: true
+footer_content: "Site hosted by <a href=\"https://www.linkedin.com/in/noahgula/\">Noah Gula</a>"
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/gulanr/ntp-doc"
