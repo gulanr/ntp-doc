@@ -1,5 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
-markdown: GFM
+markdown: kramdown
 title: NTPEx Documentation
 logo: "/media/logo.png"
 search_enabled: true
