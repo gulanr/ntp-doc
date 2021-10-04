@@ -1,5 +1,5 @@
 ---
-title: Wiring Diagrams
+title: Harware Drawings
 parent: Hardware
 grand_parent: Test Facility Design
 nav_order: 2
