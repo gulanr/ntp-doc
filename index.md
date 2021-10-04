@@ -1,4 +1,21 @@
-# Welcome to the OSU NTP Experiments Knowledge Base
+---
+layout: default
+title: Home
+nav_order: 1
+has_children: false
+has_toc: true
+---
+# Home
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+**Welcome to the OSU NTP Experiments Knowledge Base**
 This website contains documentation, calculations, and analysis used to develop the OSU NTP Experiments (NTPEx) test stand and experimental activities.
 
 ## Overview

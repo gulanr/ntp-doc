@@ -1,3 +1,9 @@
+---
+layout: default
+title: Test Facility Design
+nav_order: 2
+has_children: true
+---
 # Overview of the Test Facility's Design
 
 ## Configuration
