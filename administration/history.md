@@ -3,13 +3,13 @@
 ## Previous Works
 A summary of nuclear thermal propsulion work at The Ohio State University is provided in [this](./../assets/presentations/NTP%20at%20OSU.pptx) presentation. 
 
-### An assessmentof bimodality ofnuclear thermal propulsion systems
+### An assessment of bimodality of nuclear thermal propulsion systems
 **Justin Clark**. Undergradutate research thesis, 2019.
 
-### Analysis of Nuclear Thermal Rocket Engine Coolant Channel DesignsEnabled by Additive Manufacturing
+### Analysis of Nuclear Thermal Rocket Engine Coolant Channel Designs Enabled by Additive Manufacturing
 **Nick Salamon**. Master’s thesis, 2020.
 
-### Nuclear thermal propulsion cool-down phase optimization throughquasi-steady computational analysis,and the effect of auxiliary heat removal systems
+### Nuclear thermal propulsion cool-down phase optimization through quasi-steady computational analysis, and the effect of auxiliary heat removal systems
  **Jack Plank**. Master’s thesis, 2021.
 
 ### Optimization of Nuclear Thermal Propulsion Cooldown Phase Using Real-Time Simulations

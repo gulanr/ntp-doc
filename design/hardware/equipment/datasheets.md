@@ -1,7 +1,7 @@
 ---
 title: Datasheets
 nav_order: 2
-parent: Test Facility Design
+parent: Hardware
 has_toc: true
 ---
 # Test Stand Data Sheets
