@@ -1,3 +1,10 @@
+---
+title: Wiring Diagrams
+parent: Hardware
+grandparent: Test Facility Design
+nav_order: 2
+---
+
 # Hardware Drawings
 The following components have drawings made following ASME Y14.5M-2009 GD&T standards.
 |Image|Title|Part Number|Drawing|

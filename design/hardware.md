@@ -1,3 +1,9 @@
+---
+title: Hardware
+parent: Test Facility Design
+has_children: true
+nav_order: 2
+---
 # Overview of the Test Stand Hardware
 
 ## Test Stand Configuration
