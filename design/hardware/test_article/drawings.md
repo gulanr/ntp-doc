@@ -6,7 +6,8 @@ nav_order: 2
 ---
 
 # Hardware Drawings
-The following components have drawings made following ASME Y14.5M-2009 GD&T standards.
+The following components have drawings made following ASME Y14.5M-2009 GD&T standards. A full CAD package of the test stand may be obtained by [contacting Noah Gula](mailto:gula.8@osu.edu).
+
 |Image|Title|Part Number|Drawing|
 |:-:|-|-|-|
 |![Manifold](../../../assets/images/Manifold.png)|Manifold|1101-06.0|[1101-06.0 - Manifold.pdf](../../../assets/drawings/1101-06.0%20-%20Manifold.pdf)|
