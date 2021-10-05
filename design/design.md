@@ -14,7 +14,7 @@ A list of instruments, components, and other items, with their data shees, is av
 ## [Hardware](hardware/hardware.md)
 The test stand is comprised of a 30-gallon tank connected to a series of pressure regulating and mass flow controlling components. A 520 W heater is installed to supply heat to a test article, and the fluid systems control the cooling of the test artile.
 
-|![Test Stand P&ID](../assets/images/PID.png)|
+|![Test Stand P&ID](../assets/images/PID.PNG)|
 |:-:|
 |Test Stand P&ID|
 
