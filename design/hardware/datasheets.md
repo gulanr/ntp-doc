@@ -52,3 +52,8 @@ has_toc: true
   - -10 to +240 slm measurement range
   - Calibrated and temperature compensated
   - I2C digital output
+- [Thermocouple ADC](../../assets/datasheets/MAX31855.pdf)
+  - Maxim Integrated (Model #MAX31855)
+  - 14-bit ADC
+  - Type-K thermocouple input
+  - SPI communication
