@@ -2,8 +2,8 @@
 title: Datasheets
 nav_order: 2
 parent: Hardware
-has_toc: true
 grandparent: Test Facility Design
+has_toc: true
 ---
 # Test Stand Data Sheets
 <details open markdown="block">
