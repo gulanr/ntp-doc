@@ -2,7 +2,7 @@
 title: Datasheets
 nav_order: 2
 parent: Hardware
-grandparent: Test Facility Design
+grand_parent: Test Facility Design
 has_toc: true
 ---
 # Test Stand Data Sheets
