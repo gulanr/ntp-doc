@@ -4,6 +4,11 @@ parent: Hardware
 grand_parent: Test Facility Design
 nav_order: 2
 ---
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Instrumentation
 
 <details open markdown="block">
@@ -34,6 +39,10 @@ The test stand has the capability of measuring fluid pressure, temperature, and 
 [Type K thermocouples](../../assets/datasheets/JMTSS.pdf) are used to measure the flow temperature at several locations. Flow temperature is measured upstream of the test article, at the mid-point of the test article, and downstream of the test article. The temperature of the heat sink is also take for safety limits. Each of the four thermocouples are ungrounded MGO probes with a 1/8 in. SS 304 sheath.
 
 To perform temperature measurement, [MAX31855](../../assets/datasheets/MAX31855.pdf) chips are used. These chips are 14-bit analog to digital converters which communicate via read-only SPI. A 0.1 uF capacitor is placed between VIN and GND on each chip to filter the input, and a 10 nF capacitor is placed between the thermocouple leads to filter out noise. Each of the chips share the DO (data output) and CLK (clock) lines, but each is assigned its own CS (chip select) line. Example Arduino may be found [here](https://github.com/Zanduino/MAX31855/blob/master/examples/Demo/Demo.ino).
+
+|![Thermocouple ADC](../../assets/images/thermocouple_adc.png)|
+|:-:|
+|Thermocouple Module|
 
 <details>
     <summary>Expand code example</summary>
@@ -111,9 +120,21 @@ $$ p = V\cdot\frac{100\ \text{psig}}{5\ \text{Volts}}\tag{1}$$
 
 The pressure transducers have their excitation lines tied together at 24 VDC, grounds tied together, and each instrument uses an analog pin for its signal line.
 
+|![Pressure Transducer](../../assets/images/pressure_transducer.png)|
+|:-:|
+|Pressure Transducer|
+
 #### Mass Flow Meter
 
+|![Mass Flow Sensor](../../assets/images/mass_flow_sensor.png)|
+|:-:|
+|Mass Flow Sensor|
+
 #### Current Sensor
+
+|![Current Sensor](../../assets/images/current_sensor.jpg)|
+|:-:|
+|Current Sensor|
 
 ```cpp
 float current_sensitivity = 0.185; // [A/V] Sensitivity of ACS712 sensor
@@ -141,7 +162,23 @@ ___
 
 #### Mass Flow Control Valve
 
+|![PSV](../../assets/images/solenoid_valve.png)|
+|:-:|
+|Proportional Solenoid Valve|
+
+|![Valve Driver](../../assets/images/valve_driver.png)|
+|:-:|
+|Valve Driver|
+
 #### Heater Control Circuit
+
+|![Heater Relay Circuit](../../assets/images/heater_relay_circuit.png)|
+|:-:|
+|Heater Relay Circuit|
+
+|![AC Signal Detection](../../assets/images/ac_signal_detection.png)|
+|:-:|
+|AC Signal Detector|
 
 ### Wiring Diagram
 
