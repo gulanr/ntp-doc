@@ -13,6 +13,7 @@ nav_order: 2
   {: .text-delta }
 1. TOC
 {:toc}
+
 </details>
 
 
@@ -102,7 +103,13 @@ To perform temperature measurement, [MAX31855](../../assets/datasheets/MAX31855.
 
 #### Pressure Transducers
 
-The 
+The pressure transducers used in the experiment are analog sensors which output a 0-10 VDC signal linearly correlated to a 0-200 psig range. These pressure transducers require a 14-36 VDC excitation, though, the instrumentation configuration here supplies a 24 VDC supply precisely. The 10-bit resolution of the Arduino Mega 2560's built-in analog-to-digital converter is sufficient for this test stand as can resolve 0.488 psig change in pressure. Although the analog input of the Arduino is 5 VDC while the pressure transducers output 10 VDC full range, the pressures experienced during testing will remain below 100 psig, meaning the pressure transducers never output more than 5 VDC.
+
+To convert from voltage to pressure, the following relation is used.
+
+$$ p = V\cdot\frac{100\ \text{psig}}{5\ \text{Volts}}\tag{1}$$ 
+
+The pressure transducers have their excitation lines tied together at 24 VDC, grounds tied together, and each instrument uses an analog pin for its signal line.
 
 #### Mass Flow Meter
 
