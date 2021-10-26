@@ -38,7 +38,7 @@ The test stand has the capability of measuring fluid pressure, temperature, and 
 
 [Type K thermocouples](../../assets/datasheets/JMTSS.pdf) are used to measure the flow temperature at several locations. Flow temperature is measured upstream of the test article, at the mid-point of the test article, and downstream of the test article. The temperature of the heat sink is also take for safety limits. Each of the four thermocouples are ungrounded MGO probes with a 1/8 in. SS 304 sheath.
 
-To perform temperature measurement, [MAX31855](../../assets/datasheets/MAX31855.pdf) chips are used. These chips are 14-bit analog to digital converters which communicate via read-only SPI. A 0.1 uF capacitor is placed between VIN and GND on each chip to filter the input, and a 10 nF capacitor is placed between the thermocouple leads to filter out noise. Each of the chips share the DO (data output) and CLK (clock) lines, but each is assigned its own CS (chip select) line. Example Arduino may be found [here](https://github.com/Zanduino/MAX31855/blob/master/examples/Demo/Demo.ino).
+To perform temperature measurement, [MAX31855](../../assets/datasheets/MAX31855.pdf) chips are used. These chips are 14-bit analog to digital converters which communicate via read-only SPI. A 0.1 uF capacitor is placed between VIN and GND on each chip to filter the input, and a 10 nF capacitor is placed between the thermocouple leads to filter out noise. Each of the chips share the DO (data output) and CLK (clock) lines, but each is assigned its own CS (chip select) line. Example Arduino firmware may be found [here](https://github.com/Zanduino/MAX31855/blob/master/examples/Demo/Demo.ino).
 
 |![Thermocouple ADC](../../assets/images/thermocouple_adc.png)|
 |:-:|
@@ -112,7 +112,7 @@ To perform temperature measurement, [MAX31855](../../assets/datasheets/MAX31855.
 
 #### Pressure Transducers
 
-The pressure transducers used in the experiment are analog sensors which output a 0-10 VDC signal linearly correlated to a 0-200 psig range. These pressure transducers require a 14-36 VDC excitation, though, the instrumentation configuration here supplies a 24 VDC supply precisely. The 10-bit resolution of the Arduino Mega 2560's built-in analog-to-digital converter is sufficient for this test stand as can resolve 0.488 psig change in pressure. Although the analog input of the Arduino is 5 VDC while the pressure transducers output 10 VDC full range, the pressures experienced during testing will remain below 100 psig, meaning the pressure transducers never output more than 5 VDC.
+The pressure transducers used in the experiment are analog sensors which output a 0-10 VDC signal linearly correlated to a 0-200 psig range. These pressure transducers require a 14-36 VDC excitation, though, the instrumentation configuration here supplies a 24 VDC supply precisely. The 10-bit resolution of the Arduino Mega 2560's built-in analog-to-digital converter is sufficient for this test stand as it can resolve 0.488 psig change in pressure. Although the analog input of the Arduino is 5 VDC while the pressure transducers output 10 VDC full range, the pressures experienced during testing will remain below 100 psig, meaning the pressure transducers will never output more than 5 VDC.
 
 To convert from voltage to pressure, the following relation is used.
 
@@ -126,11 +126,21 @@ The pressure transducers have their excitation lines tied together at 24 VDC, gr
 
 #### Mass Flow Meter
 
+The test stand utilizes a cost effective [Sensiron mass flow meter](../../assets/datasheets/Sensirion_Mass_Flow_Meters_SFM3019_Datasheet.pdf) which is a digital flow meter with a range up to 240 slm with a low pressure drop across the sensor. It communicates via I<sup>2</sup>C with the Arduino.
+
+The [Sensiron GitHub repository](https://github.com/Sensirion/embedded-sfm/tree/master/sfm3019) provides an example Arduino implementation to operate the sensor.
+
 |![Mass Flow Sensor](../../assets/images/mass_flow_sensor.png)|
 |:-:|
 |Mass Flow Sensor|
 
 #### Current Sensor
+
+To measure the power supplied by the heater, an ACS712 current sensor is used. This Hall effect-based linear current sensor has a range of 5 Amps and produces an analog voltage between 0-5 VDC proportional to the measured current.
+
+Using the 10-bit analog-to-digital converter on the Arduino Mega, the sensor can resolve a 5 mA change in current. Assuming the mains AC voltage supplied is a constant 120 VAC, the power supplied by the heater is calculated via Joule heating:
+
+$$ P = IV$$
 
 |![Current Sensor](../../assets/images/current_sensor.jpg)|
 |:-:|
